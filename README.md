@@ -1,9 +1,8 @@
 # Html Webpack Path Plugin
---
 
-## why I need this?
-Sometimes you will want to upload files to OSS file server or CDN server,
-in this condition you may want to change your src url to the OSS or CDN file URL,
+## why we need this?
+Sometimes we want to upload files to OSS file server or CDN server,
+in this condition you may want to change your template tag src url prefix to the OSS or CDN file url,
 this plugin just do this simple things.
 Supports HtmlWebpackPlugin 3.x and 4.x
 
@@ -11,7 +10,7 @@ Supports HtmlWebpackPlugin 3.x and 4.x
 ```js
 plugins: [
     new HtmlWebpackPathPlugin({
-        publicPath: ossDllPath
+        publicPath: 'your url prefix'
       }),
 ]
 ```

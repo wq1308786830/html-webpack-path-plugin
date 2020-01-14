@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-path-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a plugin to change tag src url",
   "main": "dist/index.js",
   "scripts": {
