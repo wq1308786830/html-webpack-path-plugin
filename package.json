@@ -1,0 +1,32 @@
+{
+  "name": "html-webpack-path-plugin",
+  "version": "1.0.0",
+  "description": "a plugin to change tag src url",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wq1308786830/html-webpack-path-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "html",
+    "path"
+  ],
+  "author": "Russell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wq1308786830/html-webpack-path-plugin/issues"
+  },
+  "homepage": "https://github.com/wq1308786830/html-webpack-path-plugin#readme",
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/lodash": "^4.14.149",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.15",
+    "typescript": "^3.7.4"
+  }
+}
